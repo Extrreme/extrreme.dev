@@ -1,0 +1,90 @@
+/* Formatting for general website page */
+body {
+    background-color: lightgray;
+    font-family: "Calibri", sans-serif;
+}
+
+main {
+    display: flex;
+    max-width: 896px;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: justify;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    gap: 8px;
+}
+
+nav a {
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    background-color: #333;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 1px solid;
+    padding: 0.4em 0.1em;
+    font-size: small;
+}
+
+/* Formatting for home page */
+.txt-box {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.profile-img {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+}
+
+
+/* Formatting for projects on projects page */
+.project {
+    margin-bottom: 16px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.project-img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+}
+
+.project-title, .project-desc {
+    margin-left: 150px;
+    margin-right: 50px;
+    text-align: left;
+}

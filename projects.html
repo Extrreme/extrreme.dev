@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Projects | extrreme.dev</title>
+    <link rel="stylesheet" href="assets/css/style.css?v=1.0.0">
+    <link rel="icon" href="/assets/images/web.png">
+</head>
+
+<body>
+<main>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="/projects.html">Projects</a>
+    </nav>
+
+    <h1><u>My Projects:</u></h1>
+
+    <div class="project" onclick="location.href='https://www.extrreme.dev';">
+        <img class="project-img" src="/assets/images/web.png" alt="">
+        <h2 class="project-title">extrreme.dev</h2>
+        <p class="project-desc">A website for displaying projects I've worked on, and for learning simple
+            web-development using HTML, CSS, JavaScript, and possibly PHP. If you're here looking at this right now,
+            then you're on my website!</p>
+    </div>
+
+    <div class="project" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=' +
+     '1042309818062475325&permissions=8&scope=bot';">
+        <img class="project-img" src="/assets/images/spacebot.png" alt="">
+        <h2 class="project-title">SpaceBot</h2>
+        <p class="project-desc">A discord bot specializing in all things space related! Harnesses the power of
+            available space-related api's, such as NASA's "Astronomy Picture of the Day" API, or CelesTrak's NORAD
+            Two-Line Element API.</p>
+    </div>
+
+    <div class="project" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=' +
+     '342750602821894144&permissions=8&scope=bot';">
+        <img class="project-img" src="/assets/images/extrremebot.png" alt="">
+        <h2 class="project-title">ExtrremeBot</h2>
+        <p class="project-desc">A discord bot with a continuously growing list of features. Some functions include
+            music bot capabilities, and a simple, fun, stock/investment simulator. Essentially this bot serves as a
+            playground/sandbox for me.</p>
+    </div>
+
+    <div class="project" onclick="location.href='https://github.com/Extrreme/Flight-Logbook/releases/latest';">
+        <img class="project-img" src="/assets/images/flightlogbook.png" alt="">
+        <h2 class="project-title">Flight Logbook</h2>
+        <p class="project-desc">A simple application to log flights performed in a flight simulator. Unfortunately,
+            shortly after making this I learned of the existence of <a href="https://volanta.app/">Volanta</a>,
+            a professionally made flight logging tool for flight simulation</p>
+    </div>
+
+    <footer>
+        <p id="clock"></p>
+    </footer>
+</main>
+
+<script src="assets/js/main.js?v=1.0.0"></script>
+
+</body>
+</html>
